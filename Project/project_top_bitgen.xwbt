@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ethan\Dropbox\Engs31\Project\Project\project_top.ncd
+OUTFILE=C:\Users\Ethan\Dropbox\Engs31\Project\Project\project_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Ethan\Dropbox\Engs31\Project\Project
+LICENSE=WebPack
+USER_INFO=211067588_0_0_738

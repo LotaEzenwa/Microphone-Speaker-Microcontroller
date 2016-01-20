@@ -1,0 +1,27 @@
+ISim log file
+Running: /home/lota/Dropbox/Engs31/Project/Project/top_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view /home/lota/Dropbox/Engs31/Project/Project/looper_tb.wcfg -wdb /home/lota/Dropbox/Engs31/Project/Project/top_tb_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 1000 us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_tb/uut/Reverberator/RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_tb/uut/Looper_c/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 0 ps, Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 15 ns(4), Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 15 ns(4), Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 1415 ns(4), Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 1415 ns(4), Instance /top_tb/uut/Looper_c/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+# exit 0
+# exit 0

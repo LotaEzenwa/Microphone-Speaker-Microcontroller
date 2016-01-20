@@ -1,0 +1,4 @@
+work	"FIFO.vhd"
+work	"FIFO_controller.vhd"
+work	"RegFile.vhd"
+work	"ud_counter.vhd"

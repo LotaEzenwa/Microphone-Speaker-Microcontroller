@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Aug 23 22:10:26 2015
+# Process ID: 3648
+# Log file: C:/Users/Ethan/Dropbox/Engs31/Project/Project/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Ethan/Dropbox/Engs31/Project/Project/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Ethan/Dropbox/Engs31/Project/Project/pa.fromNetlist.tcl
+# create_project -name Project -dir "C:/Users/Ethan/Dropbox/Engs31/Project/Project/planAhead_run_3" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 415.176 ; gain = 55.945
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Ethan/Dropbox/Engs31/Project/Project} {ipcore_dir} }
+# add_files [list {ipcore_dir/fir_compiler_v6_3.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "Nexys3_short.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Ethan/Dropbox/Engs31/Project/Project/Nexys3_short.ucf' to fileset 'constrs_1'
+# add_files [list {Nexys3_short.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design project_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to project_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus DAConverter/clk_counter2<10 : 0> on
+   block project_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Looper_c/GND_17_o_speed[1]_mux_17_OUT<11
+   : 0> on block project_top is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Looper_c/maxcnt_sample<10 : 0> on block
+   project_top is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file project_top.edif ...
+ngc2edif: Total memory usage is 86028 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/Project.data/cache/project_top_ngc_zx.edif]
+INFO: [Common 17-344] 'link_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Ethan/Dropbox/Engs31/Project/Project\planAhead_pid3648.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Aug 23 22:11:36 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

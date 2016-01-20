@@ -1,0 +1,29 @@
+Command line:
+   reverb_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54230
+
+Mon Aug 31 02:39:22 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 914.252 Meg
+
+ Total Signals          : 41
+ Total Nets             : 193
+ Total Signal Drivers   : 22
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 14
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 684
+Total Line Count : 60
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 756.957 Meg
+
+Mon Aug 31 02:46:17 2015
+

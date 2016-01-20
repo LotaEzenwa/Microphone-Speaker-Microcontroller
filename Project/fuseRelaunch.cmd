@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Ethan/Dropbox/Engs31/Project/Project/reverb_tb_isim_beh.exe" -prj "C:/Users/Ethan/Dropbox/Engs31/Project/Project/reverb_tb_beh.prj" "work.reverb_tb" 

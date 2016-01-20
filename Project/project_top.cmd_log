@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.xst" -ofn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.xst" -ofn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.xst" -ofn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc audio_project.ucf -p xc6slx16-csg324-3 project_top.ngc project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf audio_project.ucf 
+xst -intstyle ise -ifn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.xst" -ofn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.xst" -ofn "C:/Users/Ethan/Dropbox/Engs31/Project/Project/project_top.syr" 

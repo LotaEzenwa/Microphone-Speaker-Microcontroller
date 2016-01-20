@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Aug 31 13:33:41 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "add_track" LOCATE = SITE "D9" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "gain" LOCATE = SITE "L7" LEVEL 1;
+COMP "sp_en" LOCATE = SITE "G3" LEVEL 1;
+COMP "rec_led" LOCATE = SITE "U16" LEVEL 1;
+COMP "sclk_ad" LOCATE = SITE "P11" LEVEL 1;
+COMP "sclk_da" LOCATE = SITE "L3" LEVEL 1;
+COMP "reverse" LOCATE = SITE "V9" LEVEL 1;
+COMP "ReverbSwitch" LOCATE = SITE "M8" LEVEL 1;
+COMP "sdata_out" LOCATE = SITE "K1" LEVEL 1;
+COMP "time_led<0>" LOCATE = SITE "V15" LEVEL 1;
+COMP "time_led<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "time_led<2>" LOCATE = SITE "N11" LEVEL 1;
+COMP "time_led<3>" LOCATE = SITE "R11" LEVEL 1;
+COMP "time_led<4>" LOCATE = SITE "T11" LEVEL 1;
+COMP "looper_en" LOCATE = SITE "T9" LEVEL 1;
+COMP "nCS_ad" LOCATE = SITE "T12" LEVEL 1;
+COMP "nCS_da" LOCATE = SITE "K2" LEVEL 1;
+COMP "slow_down" LOCATE = SITE "C9" LEVEL 1;
+COMP "rec_over" LOCATE = SITE "B8" LEVEL 1;
+COMP "sdata_in" LOCATE = SITE "N10" LEVEL 1;
+COMP "speed_up" LOCATE = SITE "A8" LEVEL 1;
+COMP "sound_sw" LOCATE = SITE "T10" LEVEL 1;
+SCHEMATIC END;
+
