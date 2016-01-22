@@ -1,4 +1,0 @@
-vhdl isim_temp "RegFile.vhd"
-vhdl isim_temp "FIFO_controller.vhd"
-vhdl isim_temp "FIFO.vhd"
-vhdl isim_temp "reverb_tb.vhd"
