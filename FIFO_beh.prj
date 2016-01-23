@@ -1,3 +1,0 @@
-vhdl work "RegFile.vhd"
-vhdl work "FIFO_controller.vhd"
-vhdl work "FIFO.vhd"
